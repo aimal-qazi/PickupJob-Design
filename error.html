@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pickup job</title>
+        <link rel="stylesheet" href="style.css" />
+
+        <!-- Google Fonts -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+        />
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+      </head>
+      <body>
+  </head>
+  <body>
+    <div class="homepage">
+      <img class="circle" src="images/Ellipse 24.png" alt="" />
+      <!-- Navbar -->
+      <div class="navbar rtnv">
+        <a href="./index.html" class="imageLogo"
+          ><img src="images/PICKUPJOBS TRANSPARAN 1.png" alt=""
+        /></a>
+        <div class="humburger" id="hump">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav" id="navb">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="./route.html">Schedule Route</a></li>
+          <li><a href="#">Live Route</a></li>
+          <li><a href="#">Help</a></li>
+          <div class="btns">
+            <a href="./login.html" class="nav-active">Login</a>
+            <a href="./register.html" class="nav-btn">Are you a transporter</a>
+          </div>
+        </ul>
+      </div>
+    </div>
+    <div class="routing">
+        <h3 class="rtTitle">Home > Schedule Route</h3>
+        <div class="top">
+          <div class="left">
+            <h3><i class="fa-solid fa-filter"></i> Filter</h3>
+          </div>
+          <div class="right"><a href="#">Reset Filter</a></div>
+        </div>
+      <form>
+        <div class="middle">
+          <div class="box">
+            <i class="fa-solid fa-circle-dot"></i>
+            <input type="text" placeholder="From" required />
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-circle-play fa-rotate-90"></i>
+            <input type="text" placeholder="To" required />
+          </div>
+        </div>
+        <div class="bottom">
+          <input type="number" placeholder="Weight" required />
+          <select required>
+            <option value="Goods Type" selected disabled>Goods Type</option>
+            <option value="">Item 1</option>
+            <option value="">Item 2</option>
+            <option value="">Item 3</option>
+          </select>
+          <input type="text" placeholder="Date" required />
+          <button>Search</button>
+        </div>
+      </form>
+      <div class="erlist">
+        <p>No Result Found</p>
+        <img src="images/Search-rafiki 1.png" alt="">
+        <p>If you want custom booking <a style="font-weight: 600;" href="./index.html">click here</a></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
